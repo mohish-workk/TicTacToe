@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="tictactoe.css" />
+  </head>
+  <body>
+    <div class="msg-container hide">
+      <p id="msg">Winner</p>
+      <button id="new-btn">New Game</button>
+    </div>
+    <main>
+      <h1>Tic Tac Toe</h1>
+      <div class="container">
+        <div class="instructions">
+            <h2>Instructions</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>1.</td>
+                        <td>Player 1 is "O" and Player 2 is "X".</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>Players take turns placing their marks in an empty square.</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>The first player to get 3 of their marks in a row (horizontally, vertically, or diagonally) wins!</td>
+                    </tr>
+                    <tr>
+                        <td>4.</td>
+                        <td>If all 9 squares are filled and no player has 3 in a row, the game ends in a draw.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="game">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+      </div>
+      <button id="reset-btn">Reset Game</button>
+    </main>
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
