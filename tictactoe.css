@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #548687;
+  text-align: center;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: right;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: #b0413e;
+  background-color: #ffffc7;
+}
+
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  justify-content: right;
+}
+
+#new-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+
+#msg {
+  color: #ffffc7;
+  font-size: 5vmin;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
+.instructions {
+  width: 25%; 
+  padding: 1rem;
+  background-color: #fff; 
+  border-radius: 1rem; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+  margin-right: 2rem; 
+}
+
+.instructions table {
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+.instructions td {
+  padding: 0.5rem; 
+  border-bottom: 1px solid #ddd; 
+}
+
+.instructions h2 {
+  margin-bottom: 1rem;
+}
+#title {
+  color: #ffffc7; 
+  font-size: 4rem; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+  margin-bottom: 2rem; 
+  font-family: 'Arial', sans-serif; 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+}
